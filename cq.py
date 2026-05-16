@@ -83,4 +83,4 @@ if __name__ == "__main__":
     cq = CircularQueue(5)
     for i in range(5):
         cq.enqueue((i, i))
-
+    print(cq._data)
